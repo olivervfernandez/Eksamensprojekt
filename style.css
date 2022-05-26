@@ -1,0 +1,371 @@
+body{
+    background-color: #FBFBFB;
+    font-family: 'Poppins', sans-serif;
+}
+.header{
+}
+.storprojekt{
+    display: none;
+}
+.logo{
+    text-align: center;
+    color: #292929;
+    font-weight: 700;
+}
+.logo a{
+    text-decoration:none;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-around;
+}
+nav a{
+    display: inline-block;
+    padding: 0.5em;
+    color: #292929;
+    font-weight: 400;
+    text-decoration: none
+}
+.om{
+}
+
+.om-mig{
+    color: #292929;
+}
+.om-mig h1{
+    text-align: center;
+    color: #292929;
+    font-weight: 700;
+    font-size: 28px;
+}
+.om-mig p{
+    text-align: center;
+    color: #292929;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 640px;
+}
+.om-mig-img{
+    display: block;
+    margin left: auto;
+    margin right: auto;
+    margin-top: 2em;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ph1{
+    text-align: center;
+    color: #292929;
+}
+.footer{
+    display: flex;
+}
+.kontaktoplysninger{
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 150px;
+    width: 100%;
+}
+.navn{
+    text-align: center;
+    width: 100%;
+}
+.email{
+    text-align: center;
+    width: 100%;
+}
+.telefon{
+    text-align: center;
+    width: 100%;
+}
+@media only screen and (min-width: 1280px){
+    .nav-links{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    }
+    .nav-links ul{
+        text-align: right;
+        margin-right: 15%;
+        width: 100%;
+    }
+    .nav-links ul li{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+    margin: auto;
+    width: 100%;
+    }
+    .nav-links ul li a{
+    text-align: center;
+    color: #292929;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 300;
+    margin: auto;
+    }
+    .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #292929;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    }
+    .nav-links ul li:hover::after{
+    width: 100%;
+    }
+    .om{
+        display: flex;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .om-mig-img{
+        width: 100%;
+        height: auto;
+        left: 1%;
+    }
+    .center{
+        width: 100%;
+        height: auto;
+        max-width: 506px;
+        left: 15%;
+        position: absolute;
+    }
+    .om-mig{
+        position: relative;
+        width: 600px;
+        max-height: 506px;
+        right: 15%;
+    }
+    .om-mig p{
+        text-align: left;
+    }
+    .om-mig h1{
+        text-align: left;
+    }
+    .ph1{
+        text-align: left;
+        margin-left: 15%;
+        margin-top: 150px;
+    }
+    .row1{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row3{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+ }
+    .projekter{
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    }
+    .logo{
+        width: 100%;
+        left: 0px;
+        margin-left: 15%;
+        font-weight: 700;
+        text-align: left;
+    }
+    .et{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .et{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .to{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .tre{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .fire{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .fem{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .seks{
+    display: block;
+    width: 100%;
+    height: auto;
+    }
+    .kontakt{
+        margin-top: 150px;
+    }
+    .footer{
+    display: flex;
+    }
+    .kontaktoplysninger{
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    width: 100%;
+    }
+    .navn{
+    padding-left: 30px;
+    text-align: center;
+    width: 100%;
+    }
+    .email{
+    padding-left: 30px;
+    text-align: center;
+    width: 100%;
+    }
+    .telefon{
+    padding-left: 30px;
+    text-align: center;
+    width: 100%;
+}
+  }
+@media only screen and (min-width: 600px){
+    .row1{
+    display: flex;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+            
+}
+    .row2{
+    display: flex;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+    .row3{
+    display: flex;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}}
+.et{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.to{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tre{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fire{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seks{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.kontakt-tekst h1{
+    text-align: center;
+    color: #292929;
+    font-size: 28px;
+}
+.kontakt-tekst p{
+    max-width: 600px;
+    text-align: center;
+    color: #292929;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+}
+.kontaktform{
+    width: 85%;
+    max-width: 600px;
+    background: #fbfbfb;
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #FBFBFB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.kontaktform h1{
+    margin-top: 0;
+    font-weight: 700;
+}
+.tekstbox{
+    border: 1px solid #292929;
+    margin: 8px 0;
+    padding: 12px 18px;
+    border-radius: 8px;
+}
+.tekstbox label{
+    display: block;
+    text-align: left;
+    color: #292929;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.tekstbox input,.tekstbox textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+}
+.knap{
+    display: block;
+    background: #7C90EF;
+    padding: 14px 0;
+    color: #FBFBFB;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%;
+}
